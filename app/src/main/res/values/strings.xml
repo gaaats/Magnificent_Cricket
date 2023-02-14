@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Magnificent Cricket</string>
+    <string name="facebook_app_id">920790185784785</string>
+    <string name="facebook_client_token">cc1e3762743b51cef86f83d222077392</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

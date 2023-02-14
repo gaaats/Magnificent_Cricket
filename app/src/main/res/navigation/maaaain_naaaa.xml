@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/maaaain_naaaa"
+    app:startDestination="@id/fiiiiiiiirststsFragment">
+    <fragment
+        android:id="@+id/fiiiiiiiirststsFragment"
+        android:name="com.generamobile.head.fnjgtnjgtjn.FiiiiiiiirststsFragment"
+        android:label="fragment_fiiiiiiiirststs"
+        tools:layout="@layout/fragment_fiiiiiiiirststs" >
+        <action
+            android:id="@+id/action_fiiiiiiiirststsFragment_to_cooontttttttyFragment"
+            app:destination="@id/cooontttttttyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cooontttttttyFragment"
+        android:name="com.generamobile.head.fnjgtnjgtjn.CooontttttttyFragment"
+        android:label="fragment_cooonttttttty"
+        tools:layout="@layout/fragment_cooonttttttty" >
+        <action
+            android:id="@+id/action_cooontttttttyFragment_to_seeeecccmainFragment"
+            app:destination="@id/seeeecccmainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/seeeecccmainFragment"
+        android:name="com.generamobile.head.frjrfjirfjirffrhfrhy.SeeeecccmainFragment"
+        android:label="fragment_seeeecccmain"
+        tools:layout="@layout/fragment_seeeecccmain" >
+        <action
+            android:id="@+id/action_seeeecccmainFragment_to_beefooooreFragment"
+            app:destination="@id/beefooooreFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/beefooooreFragment"
+        android:name="com.generamobile.head.fnjgtnjgtjn.BeefooooreFragment"
+        android:label="fragment_beefoooore"
+        tools:layout="@layout/fragment_beefoooore" >
+        <action
+            android:id="@+id/action_beefooooreFragment_to_filllllltttteeerFragment"
+            app:destination="@id/filllllltttteeerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/filllllltttteeerFragment"
+        android:name="com.generamobile.head.fnjgtnjgtjn.FilllllltttteeerFragment"
+        android:label="fragment_filllllltttteeer"
+        tools:layout="@layout/fragment_filllllltttteeer" />
+</navigation>
